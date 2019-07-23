@@ -1,0 +1,159 @@
+/* 
+Colors.
+  Mint Green: #26da4f
+  Violet: #4f26da
+  Burnt Orange: #da4f26
+  Whitesmoke
+  DarkSlateGrey
+*/
+
+:root {
+    --mint-green: #34a94f;
+    --blue-violet: #4f34a9;
+    --burnt-orange: #a94f34;
+}
+
+body {
+  background-color: whitesmoke;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+h1{
+  color: whitesmoke;
+}
+
+h2 {
+  padding-top: 10px;
+  color: darkslategray;
+}
+
+p {
+  color: darkslategray;
+  line-height: 1.5em;
+  font-size: 1.0em;
+}
+
+a {
+  padding:15px;
+  padding-bottom:4px;
+  font-size: 0.8em;
+  text-decoration:none;
+  color:black;
+}
+
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer {
+  background-color: var(--mint-green);
+  font-size: 0.9em;
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.footer_text {
+  font-size: 0.9em;
+  text-color: whitesmoke; 
+  font-color: whitesmoke;
+  color:whitesmoke
+}
+
+a.src_link {
+  margin: 0px;
+  font-size: 0.6em;
+  color: var(--blue-violet);  
+  text-decoration: none;
+}
+
+a.src_link:hover {
+  margin: 0px;
+  font-size: 0.6em;
+  color: var(--burnt-orange);
+  text-decoration: none;
+}
+
+p.src_link {
+  margin: 0px;
+  
+  font-size: 0.7em;
+  color: darkslategray;
+  text-color:pink;
+  text-decoration: none;
+}
+
+#bg_header {
+  top: 0;
+}
+
+#fixed_header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--mint-green);
+  position: fixed;
+  width: 100%;
+  
+}
+
+#content_header {
+  
+  background-color: darkblue;
+  margin-bottom: 0px !important;
+}
+
+#content {
+  padding: 20px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-image: linear-gradient(to bottom, var(--mint-green) 0%, var(--mint-green) 9%, white 9%, white 100%);
+  height:90%;
+}
+
+#content-application {
+  padding: 20px;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-image: linear-gradient(to bottom, var(--mint-green) 0%, var(--mint-green) 6%, white 6%, white 100%);
+  height:90%;
+}
+
+li {
+  float: left;
+}
+
+.pg_link {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.active {
+  color: #69049a;
+  background-color: darkslategray;
+  text-decoration: none;
+}
+
+.pg_link:hover:not(.active) {
+  color: whitesmoke;
+  background-color: var(--blue-violet);
+}
